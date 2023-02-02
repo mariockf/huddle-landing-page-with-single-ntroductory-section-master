@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}  
+.encabezado{
+    font-family: "poppins"; 
+    color: white; 
+   
+}
+
+body{
+    background-color:hsl(257, 40%, 49%) ;
+    background-image:url("C:/Users/mariofalciatoreckf/Downloads/proyectos tutor/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+} 
+
+.principal{ 
+    justify-content: center; 
+    display: flex; 
+   padding: 50px; 
+   min-width: 720px; 
+   max-width: 1440px;
+    
+    
+}  
+.contenido{
+    justify-content: center; 
+    text-align: justify; 
+    padding: 40px;
+} 
+.titulo{
+    font-family: "Open Sans"; 
+    color: white; 
+    font-size: 40px; 
+} 
+
+.informacion{
+    font-family: "Open Sans"; 
+    color: white; 
+    font-size: 18px; 
+    margin-bottom: 50px;
+}
+.boton{
+    background-color: white; 
+   text-decoration: none;
+    font-family: "Open Sans"; 
+    font-size: 17px;  
+    padding: 12px 60px; 
+    border-radius: 20px 20px 20px 20px ;  
+   
+} 
+.pies{ 
+  float: right; 
+
+   
+} 
+
+.instagram{
+    width: 40px; 
+    height: 40px;   
+  margin: 20px; 
+  border: 0.9px solid white; 
+  padding: 5px 5px ; 
+  border-radius: 20px 20px 20px 20px;
+   
+} 
+.facebook{
+    width: 40px; 
+    height: 40px; 
+    margin: 20px; 
+    border: 0.9px solid white; 
+  padding: 5px 5px ; 
+  border-radius: 20px 20px 20px 20px;
+} 
+.twitter{
+    width: 40px; 
+    height: 40px; 
+    margin: 20px; 
+    border: 0.9px solid white; 
+  padding: 5px 5px ; 
+  border-radius: 20px 20px 20px 20px;
+}
